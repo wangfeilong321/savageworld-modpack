@@ -1,4 +1,4 @@
-minecraft-savageworld-config
+savageworld-modpack
 ============================
 
 Config files for SavageWorld minecraft mod pack
