@@ -1,8 +1,10 @@
 /.project
 /ForgeModLoader-client-*.log
 /output-client.log
+/output-server.log*
 /liteconfig/liteloader.log
 /resourcepacks/
 /saves/
 /stats/
+/crash-reports/
 /options.txt
