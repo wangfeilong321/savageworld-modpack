@@ -187,7 +187,7 @@ ID,Unlocalised name,Type,Min Level,Max Level,Class
 185,null,null,null,null
 186,null,null,null,null
 187,null,null,null,null
-188,null,null,null,null
+188,Reading,armor_head,1,1,jds.bibliocraft.EnchantmentReading
 189,null,null,null,null
 190,null,null,null,null
 191,null,null,null,null
