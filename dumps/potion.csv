@@ -29,7 +29,7 @@ ID,Unlocalised name,Class
 27,null,null,null,null
 28,null,null,null,null
 29,null,null,null,null
-30,null,null,null,null
+30,potion.wellfedPotion,net.minecraft.potion.Potion
 31,null,null,null,null
 32,potion.paralysis,biomesoplenty.potions.PotionParalysis
 33,potion.possession,biomesoplenty.potions.PotionPossession

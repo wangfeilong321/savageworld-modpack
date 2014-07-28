@@ -1,0 +1,65 @@
+# 
+# Groups
+groups:
+  Everyone:
+    permissions:
+    - ee.lutsu.alpha.mc.mytown.commands.*
+    - mytown.adm.bypass.teleportwait
+    - mytown.chat.*
+    - mytown.ecmd.*
+    - -mytown.cmd.spawn.other
+    - -mytown.cmd.new.*
+    - -mytown.cmd.claim.*
+    - mytown.cmd(|.*)
+    - mytown.resident.blocksmulti.4
+  default:
+    prefix: '&8(&fVagrant&8)&f'
+    default: true
+    inheritance:
+    - Everyone
+    permissions:
+    - mytown.mayor.blocks.1
+    - mytown.ecmd.sethome.new_1
+    options:
+      rank: '1000'
+  Donors:
+    prefix: '&6(&7Squire&6)'
+    inheritance:
+    - Everyone
+    permissions:
+    - mytown.mayor.blocks.2
+    - mytown.ecmd.sethome.new_(1|2)
+    options:
+      rank: '500'
+  VIPs:
+    prefix: '&e(&8Knight&e)'
+    inheritance:
+    - Everyone
+    permissions:
+    - mytown.mayor.blocks.4
+    - mytown.ecmd.sethome.new_(1|2|3)
+    - mytown.cmd.new.dim0
+    - mytown.cmd.claim.dim0
+    options:
+      rank: '250'
+  Admins:
+    prefix: '&f(&cAdmin&f)&7'
+    inheritance:
+    - Everyone
+    permissions:
+    - permissions.*
+    - mytown.adm.cmd.*
+    - mytown.*
+    options:
+      rank: '25'
+  Owners:
+    prefix: '&7(&4Owner&7)&c'
+    inheritance:
+    - Everyone
+    permissions:
+    - mbr.*
+    - permissions.*
+    - mytown.adm.cmd.*
+    - mytown.*
+    options:
+      rank: '1'

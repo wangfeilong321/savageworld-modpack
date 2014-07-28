@@ -1,0 +1,26 @@
+# 
+# Groups
+groups:
+  Everyone:
+    permissions:
+    - ee.lutsu.alpha.mc.mytown.commands.*
+    - mytown.adm.bypass.teleportwait
+    - mytown.chat.*
+    - mytown.ecmd.*
+    - -mytown.cmd.spawn.other
+    - -mytown.cmd.new.*
+    - -mytown.cmd.claim.*
+    - mytown.cmd(|.*)
+    - mytown.resident.blocksmulti.4
+  default:
+    prefix: '&8(&fVagrant&8)&f'
+    default: true
+    inheritance:
+    - Everyone
+    permissions:
+    - mbr.*
+    - permissions.*
+    - mytown.adm.cmd.*
+    - mytown.*
+    options:
+      rank: '1000'
