@@ -1,5 +1,5 @@
 /.project
-/ForgeModLoader-client-*.log
+/ForgeModLoader-client-*
 /output-client.log
 /output-server.log*
 /liteconfig/liteloader.log
@@ -9,3 +9,6 @@
 /crash-reports/
 /options.txt
 /config/MyTown/data.db
+/mods/1.6.4/
+/mods/*.zip
+/mods/*.jar
