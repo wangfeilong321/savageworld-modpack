@@ -139,16 +139,16 @@ ID,Name,Temperature,Rainfall,Spawn Chance,Min Height,Max Height,Types,Class
 137,null,null,null,null
 138,null,null,null,null
 139,null,null,null,null
-140,null,null,null,null
-141,null,null,null,null
-142,null,null,null,null
-143,null,null,null,null
-144,null,null,null,null
-145,null,null,null,null
-146,null,null,null,null
-147,null,null,null,null
-148,null,null,null,null
-149,null,null,null,null
+140,Boreal Forest,0.25,0.8,0.1,0.1,0.3,FOREST,net.minecraft.world.biome.BiomeGenTaiga
+141,Gravel Beach,0.25,0.4,0.1,0.0,0.1,BEACH,ttftcuts.atg.biome.ATGBiomeGenGravelBeach
+142,Savanna,1.8,0.2,0.1,0.1,0.3,"PLAINS, DESERT",ttftcuts.atg.biome.ATGBiomeGenSavanna
+143,Shrubland,0.77,0.53,0.1,0.1,0.3,PLAINS,ttftcuts.atg.biome.ATGBiomeGenShrubland
+144,Snowy Beach,0.05,0.4,0.1,0.0,0.1,"FROZEN, BEACH",ttftcuts.atg.biome.ATGBiomeGenGravelBeach
+145,Rocky Steppe,0.2,0.1,0.1,0.3,0.5,"PLAINS, WASTELAND",ttftcuts.atg.biome.ATGBiomeGenSteppe
+146,Tropical Shrubland,1.5,0.75,0.1,0.1,0.3,"FOREST, JUNGLE",ttftcuts.atg.biome.ATGBiomeGenTropicalShrubland
+147,Tundra,0.05,0.65,0.1,0.1,0.3,"FROZEN, WASTELAND",ttftcuts.atg.biome.ATGBiomeGenTundra
+148,Volcano,2.0,0.0,0.1,0.9,1.0,"MOUNTAIN, WASTELAND",ttftcuts.atg.biome.ATGBiomeGenVolcano
+149,Woodland,0.73,0.67,0.1,0.1,0.3,FOREST,ttftcuts.atg.biome.ATGBiomeGenWoodland
 150,null,null,null,null
 151,Ender Forest,0.5,0.5,0.1,0.1,0.3,FOREST,Reika.EnderForest.World.BiomeEnderForest
 152,Woodlands,0.7,0.8,0.1,0.2,0.4,FOREST,extrabiomes.module.summa.biome.BiomeWoodlands
@@ -169,7 +169,7 @@ ID,Name,Temperature,Rainfall,Spawn Chance,Min Height,Max Height,Types,Class
 167,Glacier,0.0,0.0,0.1,1.4,2.1,"MOUNTAIN, FROZEN",extrabiomes.module.summa.biome.BiomeGlacier
 168,Forested Island,0.8,0.8,0.1,-0.8,0.8,"FOREST, WATER",extrabiomes.module.summa.biome.BiomeForestedIsland
 169,Forested Hills,0.59999996,0.8,0.1,0.2,1.8,"FOREST, MOUNTAIN",extrabiomes.module.summa.biome.BiomeForestedHills
-170,Alps,0.0,0.5,0.1,2.0,3.0,"MOUNTAIN, FROZEN",biomesoplenty.biomes.BiomeGenAlps
+170,BambooForest,0.7,0.8,0.1,0.1,0.3,"FOREST, MOUNTAIN, FROZEN",growthcraft.bamboo.BiomeGenBamboo
 171,Arctic,0.05,0.5,0.1,0.2,0.2,"FROZEN, WASTELAND",biomesoplenty.biomes.BiomeGenArctic
 172,Badlands,2.0,0.05,0.1,0.3,0.9,"DESERT, WASTELAND",biomesoplenty.biomes.BiomeGenBadlands
 173,Bamboo Forest,1.2,0.9,0.1,0.2,0.4,"FOREST, JUNGLE",biomesoplenty.biomes.BiomeGenBambooForest
