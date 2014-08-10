@@ -16,19 +16,19 @@
 #     specified biome will be chosen from the biome specific folder.  If not,
 #     it will choose a generic ruin from the root ruin folder.
 
-tries_per_chunk_normal=6
+tries_per_chunk_normal=3
 chance_to_spawn_normal=10
-chance_for_site_normal=15
+chance_for_site_normal=5
 
-tries_per_chunk_nether=6
+tries_per_chunk_nether=4
 chance_to_spawn_nether=10
 chance_for_site_nether=15
-disableRuinSpawnCoordsLogging=true
+disableRuinSpawnCoordsLogging=false
 
 templateInstancesMinDistance=75
-anyRuinsMinDistance=0
+anyRuinsMinDistance=15
 
-specific_Ocean=75
+specific_Ocean=15
 specific_Plains=75
 specific_Desert=75
 specific_Extreme Hills=75

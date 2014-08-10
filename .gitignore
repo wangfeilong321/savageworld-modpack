@@ -14,4 +14,8 @@
 /mods/*.jar
 /mods/ruins_log.txt
 /mods/resources/ruins/
-/Chocolate/
+/config/CustomSpawner/logs/
+/Chocolate/Building/
+/Chocolate/sounds/
+/Chocolate/lang/
+

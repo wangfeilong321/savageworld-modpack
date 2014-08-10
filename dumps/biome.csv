@@ -8,7 +8,7 @@ ID,Name,Temperature,Rainfall,Spawn Chance,Min Height,Max Height,Types,Class
 6,Swampland,0.8,0.9,0.1,-0.2,0.1,SWAMP,net.minecraft.world.biome.BiomeGenSwamp
 7,River,0.5,0.5,0.1,-0.5,0.0,WATER,net.minecraft.world.biome.BiomeGenRiver
 8,Hell,2.0,0.0,0.1,0.1,0.3,NETHER,net.minecraft.world.biome.BiomeGenHell
-9,Sky,0.5,0.5,0.1,0.1,0.3,END,net.minecraft.world.biome.BiomeGenEnd
+9,Sky,0.5,0.5,0.1,0.1,0.3,END,chylex.hee.world.BiomeGenEndCustom
 10,FrozenOcean,0.0,0.5,0.1,-1.0,0.5,"WATER, FROZEN",net.minecraft.world.biome.BiomeGenOcean
 11,FrozenRiver,0.0,0.5,0.1,-0.5,0.0,"WATER, FROZEN",net.minecraft.world.biome.BiomeGenRiver
 12,Ice Plains,0.0,0.5,0.1,0.1,0.3,FROZEN,net.minecraft.world.biome.BiomeGenSnow
@@ -23,9 +23,9 @@ ID,Name,Temperature,Rainfall,Spawn Chance,Min Height,Max Height,Types,Class
 21,Jungle,1.2,0.9,0.1,0.2,0.4,JUNGLE,net.minecraft.world.biome.BiomeGenJungle
 22,JungleHills,1.2,0.9,0.1,1.8,0.5,JUNGLE,net.minecraft.world.biome.BiomeGenJungle
 23,null,null,null,null
-24,null,null,null,null
-25,null,null,null,null
-26,null,null,null,null
+24,Eerie,0.5,0.5,0.1,0.1,0.3,"PLAINS, MAGICAL",thaumcraft.common.lib.world.biomes.BiomeGenEerie
+25,Magical Forest,0.7,0.6,0.1,0.1,0.3,"FOREST, MAGICAL",thaumcraft.common.lib.world.biomes.BiomeGenMagicalForest
+26,Tainted Land,0.5,0.5,0.1,0.1,0.3,"WASTELAND, MAGICAL",thaumcraft.common.lib.world.biomes.BiomeGenTaint
 27,null,null,null,null
 28,Sublime Shrubland,2.0,2.0,0.1,0.1,2.0,"FOREST, PLAINS, MAGICAL",biomesoplenty.biomes.promisedland.BiomeGenPromisedLandShrub
 29,Thinned Mystic Grove,0.9,1.0,0.1,0.1,0.3,"FOREST, MAGICAL",biomesoplenty.biomes.BiomeGenMysticGroveThin
@@ -206,7 +206,7 @@ ID,Name,Temperature,Rainfall,Spawn Chance,Min Height,Max Height,Types,Class
 204,Lush Desert,0.8,0.2,0.1,0.2,0.9,"FOREST, DESERT",biomesoplenty.biomes.BiomeGenLushDesert
 205,Lush Swamp,0.7,1.0,0.1,0.2,0.3,"SWAMP, WATER",biomesoplenty.biomes.BiomeGenLushSwamp
 206,Mangrove,0.8,0.9,0.1,0.1,0.3,"FOREST, WATER",biomesoplenty.biomes.BiomeGenMangrove
-207,Extreme Jungle,1.2,0.9,0.1,2.1,2.3,"MOUNTAIN, JUNGLE",extrabiomes.module.summa.biome.BiomeExtremeJungle
+207,WyvernBiome,0.5,0.5,0.1,0.3,1.5,"MOUNTAIN, JUNGLE",drzhark.mocreatures.dimension.BiomeGenWyvernLair
 208,Birch Forest,0.4,0.7,0.1,0.0,0.4,FOREST,extrabiomes.module.summa.biome.BiomeBirchForest
 209,Autumn Woods,0.7,0.8,0.1,0.2,0.8,FOREST,extrabiomes.module.summa.biome.BiomeAutumnWoods
 210,Maple Woods,0.2,0.8,0.1,0.3,0.6,FOREST,biomesoplenty.biomes.BiomeGenMapleWoods
