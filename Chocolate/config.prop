@@ -1,7 +1,7 @@
 # For more configurations about dungeons look at dungeonConfig folder
 
 #Minimum separation between dungeons (sepration defined in chunks)
-dungeonSeparation = 25
+dungeonSeparation = 45
 
 #generateWall: Generate wall on the nort, 1 to enable
 generateWall = 1
