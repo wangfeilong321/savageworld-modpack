@@ -32,9 +32,9 @@ ID,Unlocalised name,Class
 30,potion.wellfedPotion,net.minecraft.potion.Potion
 31,null,null,null,null
 32,potion.paralysis,biomesoplenty.potions.PotionParalysis
-33,potion.possession,biomesoplenty.potions.PotionPossession
-34,null,null,null,null
-35,null,null,null,null
+33,rtImbue.imbuePoison,lumien.randomthings.PotionEffects.ImbuePoison
+34,rtImbue.imbueWeakness,lumien.randomthings.PotionEffects.ImbueWeakness
+35,rtImbue.imbueWither,lumien.randomthings.PotionEffects.ImbueWither
 36,null,null,null,null
 37,null,null,null,null
 38,null,null,null,null
@@ -102,13 +102,13 @@ ID,Unlocalised name,Class
 100,Drowning,WayofTime.alchemicalWizardry.common.PotionDrowning
 101,Boost,WayofTime.alchemicalWizardry.common.PotionBoost
 102,Whirlwind,WayofTime.alchemicalWizardry.common.PotionProjectileProtect
-103,Inhibit,WayofTime.alchemicalWizardry.common.PotionInhibit
-104,Flight,WayofTime.alchemicalWizardry.common.PotionFlight
-105,Reciprocation,WayofTime.alchemicalWizardry.common.PotionReciprocation
-106,Flame Cloak,WayofTime.alchemicalWizardry.common.PotionFlameCloak
-107,Ice Cloak,WayofTime.alchemicalWizardry.common.PotionIceCloak
-108,Heavy Heart,WayofTime.alchemicalWizardry.common.PotionHeavyHeart
-109,Fire Fuse,WayofTime.alchemicalWizardry.common.PotionFireFuse
+103,paralysis,lycanite.lycanitesmobs.PotionBase
+104,leech,lycanite.lycanitesmobs.PotionBase
+105,penetration,lycanite.lycanitesmobs.PotionBase
+106,recklessness,lycanite.lycanitesmobs.PotionBase
+107,rage,lycanite.lycanitesmobs.PotionBase
+108,weight,lycanite.lycanitesmobs.PotionBase
+109,swiftswimming,lycanite.lycanitesmobs.PotionBase
 110,Planar Binding,WayofTime.alchemicalWizardry.common.PotionPlanarBinding
 111,null,null,null,null
 112,null,null,null,null
@@ -255,27 +255,3 @@ ID,Unlocalised name,Class
 253,null,null,null,null
 254,null,null,null,null
 255,null,null,null,null
-256,Paralysis,lycanite.lycanitesmobs.PotionBase
-257,Leech,lycanite.lycanitesmobs.PotionBase
-258,Penetration,lycanite.lycanitesmobs.PotionBase
-259,Recklessness,lycanite.lycanitesmobs.PotionBase
-260,Rage,lycanite.lycanitesmobs.PotionBase
-261,Weight,lycanite.lycanitesmobs.PotionBase
-262,Swiftswimming,lycanite.lycanitesmobs.PotionBase
-263,null,null,null,null
-264,null,null,null,null
-265,null,null,null,null
-266,null,null,null,null
-267,null,null,null,null
-268,null,null,null,null
-269,null,null,null,null
-270,null,null,null,null
-271,null,null,null,null
-272,null,null,null,null
-273,null,null,null,null
-274,null,null,null,null
-275,null,null,null,null
-276,null,null,null,null
-277,null,null,null,null
-278,null,null,null,null
-279,null,null,null,null
