@@ -4,7 +4,7 @@
 #Needs at least 20 blocks underground, so it not recommended to use in biomes with height lower than 25
 
 #biomes = Plains, Ice Plains, Forest, Desert
-biomes = Plains, Ice Plains, Forest, Desert
+biomes = Taiga, Taiga M, Clearing, ClearingBorder, DeepMushrooms, Lowlands, MajorFeature, Meadow, MinorFeature, Mushrooms, Plains, Savannah, Shrubland, Shrublands, Sunflower Plains, Swamp, Swampland, Tropical Shrubland, Badlands, FireSwamp, Outback, Sahel, Savanna, Steppe, Tropics, Wasteland, Desert, Desert Island, Desert M, Dunes, Autumn Forest, Autumn Woods, Birch Forest, Boreal Forest, Flower Forest, Forest, Forest Island, Forested Hills, Forested Island, ForestHills, Pine Forest, Pinelands, Rainforest, Redwood Forest, Redwood Lush, Temperate Rainforest, Woodland, Woodlands, Deadlands, Drylands, Field, Garden, Grassland, LushDesert, Oasis, Pasture, Prairie 
 
 #chance: define the ratio at wich the dungeon spawns, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.

@@ -1,18 +1,18 @@
 # For more configurations about dungeons look at dungeonConfig folder
 
 #Minimum separation between dungeons (sepration defined in chunks)
-dungeonSeparation = 45
+dungeonSeparation = 35
 
 #generateWall: Generate wall on the nort, 1 to enable
 generateWall = 1
 # Chunk caves, are caves/structures generated on each chunk(if the chunk is viable)set 0 to disable, 1 to enable
 
 # Jungle caves, located around layer 40 in jugle biomes
-jungleChunck = 0
+jungleChunck = 1
 # Swamp caves, located around layer 40 in swamp biomes
-swampCaves = 0
+swampCaves = 1
 # Nether mountains, located on the nether surface
-netherMountains = 0
+netherMountains = 1
 # Tunnels spawn around all the world in a infinite line the chance is the aproximate distance between tunnels in chunks
 # Abandoned mineshafts go around layer 40
 mineshafts = 0

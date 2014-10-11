@@ -1,4 +1,5 @@
-biomes = Ocean
+
+biomes = Ocean, FrozenOcean, Improved Oceans
 chance = 45
 mob = triton
 icon = 10

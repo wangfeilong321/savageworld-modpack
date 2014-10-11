@@ -2,7 +2,8 @@
 #biomes = Ice Plains
 #Will try to find the highest position to spawn, better avoid any biome with hills
 
-biomes = Ice Plains
+#biomes = Ice Plains
+biomes = Ice Plains, Ice Plains Spikes, Ice Wasteland, Snow Forest, Snow Island, Snowfield, Snowy Beach, Snowy Rainforest, Tall Pine Forest, Tundra
 
 #chance define the ratio at wich the dungeon spawn, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.

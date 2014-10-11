@@ -32,9 +32,9 @@ ID,Unlocalised name,Class
 30,potion.wellfedPotion,net.minecraft.potion.Potion
 31,null,null,null,null
 32,potion.paralysis,biomesoplenty.potions.PotionParalysis
-33,rtImbue.imbuePoison,lumien.randomthings.PotionEffects.ImbuePoison
-34,rtImbue.imbueWeakness,lumien.randomthings.PotionEffects.ImbueWeakness
-35,rtImbue.imbueWither,lumien.randomthings.PotionEffects.ImbueWither
+33,potion.possession,biomesoplenty.potions.PotionPossession
+34,null,null,null,null
+35,null,null,null,null
 36,null,null,null,null
 37,null,null,null,null
 38,null,null,null,null

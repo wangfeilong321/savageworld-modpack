@@ -2,7 +2,8 @@
 #biomes = Taiga
 #Will spawn in the highest position
 
-biomes = Desert
+#biomes = Desert
+biomes = Desert, Desert Island, Desert M, Dunes, DesertHills, Desert Mountains, Mountain Desert
 
 #chance define the ratio at wich the dungeon spawn, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.

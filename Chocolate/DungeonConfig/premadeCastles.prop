@@ -4,7 +4,7 @@
 #Needs at least 20 blocks underground, so it not recommended to use in biomes with height lower than 25
 
 #biomes = Plains
-biomes = Plains
+biomes = Taiga, Taiga M, Clearing, ClearingBorder, Lowlands, MajorFeature, Meadow, MinorFeature, Plains, Savannah, Shrubland, Shrublands, Sunflower Plains, Swamp, Swampland, Tropical Shrubland, Badlands, FireSwamp, Outback, Sahel, Savanna, Steppe, Tropics, Wasteland, Desert, Desert Island, Desert M, Dunes
 
 #chance: define the ratio at wich the dungeon spawns, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.

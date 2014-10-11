@@ -2,7 +2,8 @@
 #biomes = Taiga
 #Will spawn in the highest position
 
-biomes = Taiga
+#biomes = Taiga
+biomes = Taiga, Taiga M, Badlands, FireSwamp, Outback, Sahel, Savanna, Steppe, Mesa, Tropics, Wasteland, Bald Hill, Birch Hill, Highlands, Valley, Chaparral, Heathland, Highland, IcyHills
 
 #chance define the ratio at wich the dungeon spawn, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.
