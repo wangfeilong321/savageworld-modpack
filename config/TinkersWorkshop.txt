@@ -162,7 +162,7 @@ drawbridge {
 
 "environment checks" {
     # Change env check warnings to reflect that this is a modpack.
-    B:IsModpack=false
+    B:IsModpack=true
 }
 
 
@@ -356,7 +356,7 @@ tools {
 
 "ultra hardcore changes" {
     # Gives all tier 1 patterns when pattern chest is placed
-    B:"Add Patterns to Pattern Chests"=false
+    B:"Add Patterns to Pattern Chests"=true
     B:"Add World Border"=false
 
     # Makes recipes for gold apples, carrots, and melon potions more expensive
