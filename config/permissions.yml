@@ -1,26 +1,40 @@
-# 
-# Groups
 groups:
-  Everyone:
+  default:
+    default: true
     permissions:
     - ee.lutsu.alpha.mc.mytown.commands.*
-    - mytown.adm.bypass.teleportwait
+    - mbr.*
+    - modifyworld.*
+    - -mytown.adm.bypass.teleportwait
+    - –mytown.adm.cmd.tp
+    - mytown.resident.blocksmulti.4
+    - mytown.adm.cmd.*
     - mytown.chat.*
     - mytown.ecmd.*
-    - -mytown.cmd.spawn.other
-    - -mytown.cmd.new.*
-    - -mytown.cmd.claim.*
     - mytown.cmd(|.*)
-    - mytown.resident.blocksmulti.4
-  default:
-    prefix: '&8(&fVagrant&8)&f'
-    default: true
-    inheritance:
-    - Everyone
-    permissions:
-    - mbr.*
-    - permissions.*
-    - mytown.adm.cmd.*
     - mytown.*
-    options:
-      rank: '1000'
+    - mytown.adm.*
+    - permissions.*
+    - essentials.*
+    prefix: '[Citizen] '
+  Master:
+    inheritance:
+    - default
+    prefix: '[Master] '
+  Admin:
+    inheritance:
+    - default
+    permissions:
+    - mytown.adm.bypass.teleportwait
+    - '*'
+    prefix: '[Lord] '
+users:
+  BadMonkeyMC:
+    group:
+    - Admin
+  samb123:
+    group:
+    - Master
+  TwistedRapier:
+    group:
+    - Master
