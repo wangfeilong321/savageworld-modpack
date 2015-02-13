@@ -1,0 +1,13 @@
+server.basics
+  default: true
+  children:
+    ee.lutsu.alpha.mc.mytown.commands.CmdMyTown: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdChannel: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdSpawn: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdTeleport: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdSetSpawn: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdOnline: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdEmote: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdPrivateMsg: true
+    ee.lutsu.alpha.mc.mytown.commands.CmdChat: true
+    
